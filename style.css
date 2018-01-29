@@ -118,10 +118,27 @@ border-radius: 15px 9px;
   background: black;
   margin-left: 34px;
   margin-top: 65px;
-  border: 9px solid grey;
+  border: 12px solid grey;
   border-radius: 1em 1em 3.5em 3.5em;
   opacity: 0.8;
 }
+.blackDott{
+  margin-left: 88px;
+  margin-top: -4%;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+}
+.blackDott2{
+  margin-left: 190px;
+  margin-top: -4%;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+}
+
 
 #image{
   height: 100%;
@@ -132,10 +149,10 @@ border-radius: 15px 9px;
 
 }
 .error{
-  font-size: 20px;
-  color: red;
-  margin-left: 20px;
-  margin-top: 53px;
+font-size: 20px;
+color: red;
+margin-left: 20px;
+margin-top: 13px;
 }
 
 .description{
@@ -241,8 +258,46 @@ opacity: 2;
   margin-left: 366px;
   border-radius: 22px;
   box-shadow: -1px -1px 9px 11px rgba(0, 0, 0, 0.6);
-
 }
+.bar1{
+  background-color: #8c1610;
+  height: 8px;
+  width: 58.5px;
+  margin-left: 0px;
+  position: absolute;
+  margin-top: 116px;
+  opacity: 5.6;
+}
+.bar2{
+  background-color: #8c1610;
+  height: 8px;
+  width: 58.5px;
+  margin-left: 0px;
+  position: absolute;
+  margin-top: 132px;
+  opacity: 5.6;
+}
+.bar3{
+  background-color: #8c1610;
+  height: 8px;
+  width: 58.5px;
+  margin-left: 0px;
+  position: absolute;
+  margin-top: 511px;
+  opacity: 5.6;
+}
+.bar4{
+  background-color: #8c1610;
+  height: 8px;
+  width: 58.5px;
+  margin-left: 0px;
+  position: absolute;
+  margin-top: 526px;
+  opacity: 5.6;
+}
+
+
+
 #upperbuttons{
   display: flex;
   justify-content: space-between;
@@ -340,12 +395,43 @@ z-index: 50;
 align-items: center;
 justify-content: center;
 }
-.topRightPokedex{
-  position: absolute;
-  top:0;
-  right:0;
-  transform: scaleX(-1);
+#rectangle{
+  background-color: #295329;
+  height: 52px;
+  width: 96px;
+  border-radius: 10px;
+  margin-left: -2px;
+  box-shadow: -7px 7px 19px 8px rgba(27, 42, 21, 0.3) inset;
+  margin-top: 176px;
+
 }
+#rectangle2{
+  background-color: #295329;
+  height: 52px;
+  width: 96px;
+  border-radius: 10px;
+  margin-left: 135px;
+  box-shadow: -7px 7px 19px 8px rgba(27, 42, 21, 0.3) inset;
+  margin-top: -52px;
+}
+.line1{
+  background-color: yellow;
+  height: 8px;
+  width: 64px;
+  margin-left: 174px;
+  margin-top: -177px;
+  border-radius: 2px;
+}
+.line2{
+  background-color: #00ff42;
+  height: 8px;
+  width: 64px;
+  margin-left: 105px;
+  margin-top: -8px;
+  border-radius: 7px;
+
+}
+
 
 @media (max-width: 770px) {
   #leftBlock{

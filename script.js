@@ -47,13 +47,7 @@ window.onload = function(){
             dataName.style.display='none';
             dataType.style.display='none';
             errorM.style.display='block';
-        }
-        if(searchTerm === 29){
-            myImage.seretAttribute('src', "https://archives.bulbagarden.net/media/upload/4/4a/032Nidoran.png");
-    
-
-        }
-          
+        } 
             if (isNaN(searchTerm) == true) {
                 if(  searchTerm !== ourData[i].name ) {
                     errorM.innerHTML = searchTerm +" " + 'is not a valid pokemon name';
